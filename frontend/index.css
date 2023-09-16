@@ -1,0 +1,18 @@
+.navbar {
+    position: absolute;
+    height: 100%;
+    width: 188px;
+    border-radius: 0px 10px 10px 0px;
+    border-right: 1px solid #E8E8EF;
+    background: #FFF;
+}
+
+.info {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 326px;
+    border-radius: 10px 0px 0px 10px;
+    border-right: 1px solid #E8E8EF;
+    background: #FFF;
+}

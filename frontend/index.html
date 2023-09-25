@@ -5,19 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body style="background-color: #E8E8EF;">
-    <div class="navbar">
+    <div class="wrapper">
+        <div class="navbar">
+            <div class="header_nav">
+                <div class="change_theme_button">
+                    <img class="change_theme" src="icons/ICON-change_theme.svg" alt="change_theme">
+                </div>
+                <div class="name_nav">
+                    <p style="font-size: 20px; padding-bottom: 4px;" class="name">LearnFS</p>
+                </div>
+            </div>
+            <div class="navigation">
+                <div class="allocation">
+                    <img class="img_nav" src="icons/ICON-main_true.svg" alt="main_true">
+                    <p class="p_nav">Главная</p>
+                </div>
+                <div class="article">
+                    <img class="img_nav" src="icons/ICON-article_false.svg" alt="main_true">
+                    <p class="p_nav">Статьи</p>
+                </div>
+                <div class="polls">
+                    <img class="img_nav" src="icons/ICON-polls_false.svg" alt="main_true">
+                    <p style="padding-bottom: 4px;" class="p_nav">Опросы</p>
+                </div>
+                <div class="question">
+                    <img class="img_nav" src="icons/ICON-question_false.svg" alt="main_true">
+                    <p style="padding-bottom: 4px;" class="p_nav">Вопросы</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="content">
+            <div class="header">
+                <div class="search_bar">
+                    <input class="search" placeholder="Поиск" type="text">
+                </div>
+                <div class="class_bar">
+                    <select class="class" name="select">
+                        <option value="value1">Значение 1</option>
+                        <option value="value2">Значение 2</option>
+                        <option value="value3">Значение 3</option>
+                    </select>
+                </div>
+                <div class="object_bar">
+                    <select class="object" name="select">
+                        <option value="value1">Значение 1</option>
+                        <option value="value2">Значение 2</option>
+                        <option value="value3">Значение 3</option>
+                    </select>
+                </div>
+            </div>
 
-    </div>
+            <div class="theme">
+                <div class="item-width"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item-width"></div>
+                <div class="item-width"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+            </div>
+        </div>
 
-    <div class="content">
-        
-    </div>
-
-    <div class="info">
-
+        <div class="info">
+    
+        </div>
     </div>
 </body>
 </html>
